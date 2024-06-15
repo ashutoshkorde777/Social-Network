@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Index">
+  <grid id="27dc6" binding="Index" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="630" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-816"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="2fc4" class="javax.swing.JButton" binding="findFriendOfFriendsButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="FindFriendOfFriends"/>
+        </properties>
+      </component>
+      <component id="51ea" class="javax.swing.JButton" binding="findTopUsersButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="find top users"/>
+        </properties>
+      </component>
+      <component id="2d118" class="javax.swing.JButton" binding="logOut">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="log out"/>
+        </properties>
+      </component>
+      <component id="c9a80" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="network.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b69ce" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="friends.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b426b" class="javax.swing.JButton" binding="DISPLAYFriendsButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Display Friends"/>
+        </properties>
+      </component>
+      <component id="577a6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="topuser.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2586c" class="javax.swing.JButton" binding="showNetworkButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Show Network"/>
+        </properties>
+      </component>
+      <component id="fc242" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="friendsoffriend.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="79640" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="posts.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fa655" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4718879"/>
+          <icon value="logout.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="29da0" class="javax.swing.JButton" binding="makeConnection">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Make Connection"/>
+        </properties>
+      </component>
+      <component id="d3203" class="javax.swing.JButton" binding="Posts">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Posts"/>
+        </properties>
+      </component>
+      <component id="fe244" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="make connection.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="60ec6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="network (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
